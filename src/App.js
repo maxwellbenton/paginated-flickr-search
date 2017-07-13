@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Nav">
-          <h2>Forbes Image Challenge Search</h2>
+          <h2>Flickr Image Search</h2>
           <form>
                 <input onChange={this.handleChange} value={this.searchTerm} type="text" placeholder="Enter Search Term" />
                 <input onClick={this.onSubmit} type="submit" value="Search Flickr"></input>
